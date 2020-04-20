@@ -1,6 +1,12 @@
 ###做这个devOps是为了什么?
 首先这个仅仅是个日常运维小工具，主要是方便开发人员用自己擅长的代码去处理常用的命令及操作。
 
+### devOps都用了什么？
+* github.com/bndr/gojenkins
+* mysqldump
+* expect
+
+
 ### devOps有哪些功能?
 * jenkins build job
 ```go
