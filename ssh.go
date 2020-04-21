@@ -60,17 +60,15 @@ func (s *sshClient) StdErr(stdErr io.Writer) {
 func (s *sshClient) DoCmd(cmdString string) error {
 	infoLog("命令内容：")
 	info2Log(cmdString)
-	err := s.sshSession.Run(cmdString)
+	err := s.sshSession.Start(cmdString)
 	if err != nil {
 		errorLog(err.Error())
 		return err
 	}
+	_ = s.sshSession.Wait()
 	return nil
 }
 
 func (s *sshClient) Close() {
-	err := s.sshSession.Close()
-	if err != nil {
-		panic(err)
-	}
+	_ = s.sshSession.Close()
 }
