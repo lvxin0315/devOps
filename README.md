@@ -80,3 +80,18 @@ dumper.SavePath = fmt.Sprintf("/data/%d", time.Now().UnixNano())
 dumper.TableNameList = []string{"a", "company"}
 dumper.Do()
 ```
+
+* docker swarm http api
+```go
+os.Setenv("DOCKER_HOST", "http://172.16.0.228:2375")
+os.Setenv("DOCKER_API_VERSION", "1.39")
+swarmCli, err := devOps.NewSwarmCli()
+if err != nil{
+    t.Error(err)
+}
+//创建一个network
+res, err := swarmCli.CreateSwarmNetwork("test123123")
+if err != nil{
+    t.Error(err)
+}
+```
