@@ -26,7 +26,8 @@ func (s *scpInfo) Do() {
 		panic(err)
 	}
 	//生成命令
-	cmdString := fmt.Sprintf(`spawn scp -r -P %d %s@%s:%s %s
+	cmdString := fmt.Sprintf(`set timeout -1
+spawn scp -r -P %d %s@%s:%s %s
 expect {
  "(yes/no)?"
   {

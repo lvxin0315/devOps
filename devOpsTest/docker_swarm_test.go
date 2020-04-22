@@ -20,4 +20,5 @@ func Test_DockerSwarmClientCreateSwarmNetwork(t *testing.T) {
 		t.Error(err)
 	}
 	log.Println(res.ID)
+
 }
