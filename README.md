@@ -5,6 +5,7 @@
 * github.com/bndr/gojenkins
 * mysqldump
 * expect
+* RDS_for_docker 用docker还原RDS物理备份 「查看详情」
 
 
 ### devOps有哪些功能?

@@ -1,0 +1,6 @@
+[mysqld]
+pid-file        = /var/run/mysqld/mysqld.pid
+socket          = /var/run/mysqld/mysqld.sock
+datadir         = /home/mysql/data
+symbolic-links=0
+skip-grant-tables
