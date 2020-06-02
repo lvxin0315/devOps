@@ -17,5 +17,4 @@ EOF
 apt-get update -y
 
 #安装个vim，方便调试
-apt-get install vim -y
-apt-get install wget -y
+apt-get install wget procps vim -y
