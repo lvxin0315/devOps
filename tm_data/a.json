@@ -1,0 +1,1062 @@
+{
+  "seller": {
+    "enable": true,
+    "userId": 2207314869202,
+    "shopId": 361979457,
+    "shopName": "派莱斯旗舰店",
+    "shopUrl": "//plys.m.tmall.com",
+    "allProduct": "//plys.m.tmall.com/shop/shop_auction_search.htm?sort=default",
+    "shopIcon": "//img.alicdn.com/imgextra//20/33/TB1jSQxvq61gK0jSZFlSutDKFXa.jpg",
+    "wwUrl": "//h5.m.taobao.com/ww/index.htm#!dialog-5rS+6I6x5pav5peX6Iiw5bqX-622278076807",
+    "fans": null,
+    "certIcon": null,
+    "creditLevelIcon": "//img.alicdn.com/tfs/TB1u5sBnlfH8KJjy1XbXXbLdXXa-198-36.png?getAvatar=avatar",
+    "allItemCount": 415,
+    "newItemCount": null,
+    "rateSum": 79157,
+    "weitaoId": null,
+    "sellerType": "B",
+    "shopType": "B",
+    "evaluates": [
+      {
+        "title": "宝贝描述",
+        "score": "4.8 ",
+        "type": "desc",
+        "level": "1"
+      },
+      {
+        "title": "卖家服务",
+        "score": "4.8 ",
+        "type": "serv",
+        "level": "1"
+      },
+      {
+        "title": "物流服务",
+        "score": "4.8 ",
+        "type": "post",
+        "level": "1"
+      }
+    ],
+    "sellerNick": "派莱斯旗舰店",
+    "creditLevel": "13",
+    "tagIcon": null,
+    "shopTitleIcon": null,
+    "starts": "2020-01-08 12:16:06",
+    "goodRatePercentage": null,
+    "encryptSellerId": "UvCIWMGvYMmgLOFIWvgTT",
+    "certShopList": null
+  },
+  "item": {
+    "enable": true,
+    "itemId": 622278076807,
+    "title": "菜刀菜板二合一厨房刀具家用切菜刀超快锋利砧板硅胶锅铲厨具套装",
+    "subtitle": "食用硅胶 防烫耐高温 锋利不易生锈",
+    "images": [
+      "//img.alicdn.com/imgextra/i3/2207314869202/O1CN01EKbMk72HqZCr9Sx14_!!2207314869202-0-lubanu-s.jpg",
+      "//img.alicdn.com/imgextra/i4/2207314869202/O1CN01wrwyoQ2HqZCrZpCld_!!2207314869202-0-lubanu-s.jpg",
+      "//img.alicdn.com/imgextra/i4/2207314869202/O1CN01x6d2yF2HqZCyJD4GF_!!2207314869202-0-lubanu-s.jpg",
+      "//img.alicdn.com/imgextra/i3/2207314869202/O1CN012gIVtS2HqZCw7AME5_!!2207314869202-0-lubanu-s.jpg",
+      "//img.alicdn.com/imgextra/i3/2207314869202/O1CN01ftHkyB2HqZCtavNwf_!!2207314869202-0-lubanu-s.jpg"
+    ],
+    "videos": null,
+    "categoryId": "50004431",
+    "rootCategoryId": "50016349",
+    "brandValueId": "null",
+    "logo": null,
+    "skuText": "请选择颜色分类 ",
+    "standingDate": "0",
+    "storePacket": null,
+    "servItemExtend": null,
+    "carShipTime": null,
+    "commentCount": null,
+    "favcount": 1198,
+    "tmallDescUrl": "http://mdetail.tmall.com/templates/pages/desc?id=622278076807",
+    "taobaoPcDescUrl": null,
+    "moduleDescUrl": null,
+    "moduleDescParams": null,
+    "h5moduleDescUrl": null,
+    "titleIcon": null,
+    "themeType": null,
+    "slogon": null,
+    "extData": {
+      "addressLevel": 2
+    }
+  },
+  "trade": {
+    "enable": true,
+    "buyEnable": true,
+    "cartEnable": true,
+    "buyText": null,
+    "cartText": null,
+    "redirectUrl": null,
+    "waitForStart": null,
+    "startTime": null,
+    "buyParam": null,
+    "hintBanner": null,
+    "tradeConfig": {
+      "1": "//h5.m.taobao.com/awp/base/order.htm",
+      "2": "//buy.m.tmall.com/order/confirmOrderWap.htm"
+    },
+    "tradeParams": {
+      "buyNow": "true",
+      "_input_charset": "utf-8"
+    },
+    "useTrade30": true,
+    "useNativeTrade": false
+  },
+  "rate": {
+    "enable": true,
+    "totalCount": 560,
+    "keywords": [
+      {
+        "attribute": "90051014-11",
+        "word": "品质很好",
+        "count": 128,
+        "type": 1
+      },
+      {
+        "attribute": "90071031-11",
+        "word": "好用",
+        "count": 79,
+        "type": 1
+      },
+      {
+        "attribute": "90111000-11",
+        "word": "性价比高",
+        "count": 77,
+        "type": 1
+      },
+      {
+        "attribute": "90051008-11",
+        "word": "很锋利",
+        "count": 56,
+        "type": 1
+      },
+      {
+        "attribute": "90151000-11",
+        "word": "物流服务很好",
+        "count": 38,
+        "type": 1
+      },
+      {
+        "attribute": "90131001-13",
+        "word": "气味难闻",
+        "count": 7,
+        "type": -1
+      }
+    ],
+    "rateList": [
+      {
+        "content": "太划算了，本来是打算买硅胶铲的，无意间搜到这个套装，锅铲很好用，菜刀也还可以，削皮器也很便利，总之这个套装是真的省事性价比又高。我真心觉得自己买值、质量很好！平常用基本没有问题",
+        "userName": "李**厝",
+        "headPic": "//gtms03.alicdn.com/tps/i3/TB1yeWeIFXXXXX5XFXXuAZJYXXX-210-210.png_80x80.jpg",
+        "memberLevel": "5",
+        "userIcon": null,
+        "dateTime": "2020-07-28",
+        "skuInfo": "颜色分类:菜刀菜板汤漏铲勺5件套",
+        "images": [
+          "//gw.alicdn.com/bao/uploaded/i3/O1CN01H0LVfn2CD70gysJEM_!!0-rate.jpg",
+          "//gw.alicdn.com/bao/uploaded/i4/O1CN01z0K4m22CD70pmFN0c_!!0-rate.jpg",
+          "//gw.alicdn.com/bao/uploaded/i3/O1CN014oedHn2CD70uG2FqS_!!0-rate.jpg",
+          "//gw.alicdn.com/bao/uploaded/i4/O1CN01hWXQNL2CD70uG3nTV_!!0-rate.jpg"
+        ],
+        "tmallMemberLevel": 0,
+        "headExtraPic": "//gw.alicdn.com/tfs/TB19maGhm_I8KJjy0FoXXaFnVXa-69-69.png",
+        "memberIcon": "//gw.alicdn.com/tfs/TB1UqAjeOqAXuNjy1XdXXaYcVXa-130-42.png",
+        "isVip": "true"
+      }
+    ]
+  },
+  "tabBar": {
+    "enable": true,
+    "rateListTabEnable": true,
+    "propertyTabEnable": false
+  },
+  "mock": {
+    "enable": true,
+    "trade": {
+      "enable": true,
+      "buyEnable": true,
+      "cartEnable": true,
+      "buyText": null,
+      "cartText": null,
+      "redirectUrl": null,
+      "waitForStart": null,
+      "startTime": null,
+      "buyParam": null,
+      "hintBanner": null,
+      "tradeConfig": null,
+      "tradeParams": null,
+      "useTrade30": null,
+      "useNativeTrade": null
+    },
+    "price": {
+      "price": {
+        "priceMoney": null,
+        "priceText": "35.80",
+        "priceTitle": null,
+        "lineThrough": null
+      },
+      "extraPrices": null
+    },
+    "skuCore": {
+      "sku2info": {
+        "0": {
+          "price": {
+            "priceMoney": 3580,
+            "priceText": "35.80",
+            "priceTitle": "价格",
+            "lineThrough": null
+          },
+          "quantity": 1000
+        },
+        "4400155540181": {
+          "price": {
+            "priceMoney": 4980,
+            "priceText": "49.80",
+            "priceTitle": "价格",
+            "lineThrough": null
+          },
+          "quantity": 100
+        },
+        "4400155540180": {
+          "price": {
+            "priceMoney": 4280,
+            "priceText": "42.80",
+            "priceTitle": "价格",
+            "lineThrough": null
+          },
+          "quantity": 100
+        },
+        "4400155540183": {
+          "price": {
+            "priceMoney": 5280,
+            "priceText": "52.80",
+            "priceTitle": "价格",
+            "lineThrough": null
+          },
+          "quantity": 100
+        },
+        "4400155540182": {
+          "price": {
+            "priceMoney": 5280,
+            "priceText": "52.80",
+            "priceTitle": "价格",
+            "lineThrough": null
+          },
+          "quantity": 100
+        },
+        "4400155540177": {
+          "price": {
+            "priceMoney": 4680,
+            "priceText": "46.80",
+            "priceTitle": "价格",
+            "lineThrough": null
+          },
+          "quantity": 100
+        },
+        "4400155540176": {
+          "price": {
+            "priceMoney": 3580,
+            "priceText": "35.80",
+            "priceTitle": "价格",
+            "lineThrough": null
+          },
+          "quantity": 100
+        },
+        "4400155540179": {
+          "price": {
+            "priceMoney": 3980,
+            "priceText": "39.80",
+            "priceTitle": "价格",
+            "lineThrough": null
+          },
+          "quantity": 100
+        },
+        "4400155540178": {
+          "price": {
+            "priceMoney": 4680,
+            "priceText": "46.80",
+            "priceTitle": "价格",
+            "lineThrough": null
+          },
+          "quantity": 100
+        },
+        "4400155540185": {
+          "price": {
+            "priceMoney": 6380,
+            "priceText": "63.80",
+            "priceTitle": "价格",
+            "lineThrough": null
+          },
+          "quantity": 100
+        },
+        "4400155540184": {
+          "price": {
+            "priceMoney": 5880,
+            "priceText": "58.80",
+            "priceTitle": "价格",
+            "lineThrough": null
+          },
+          "quantity": 100
+        }
+      },
+      "skuItem": {
+        "skuTitle": null,
+        "hideQuantity": true
+      }
+    },
+    "skuBase": null,
+    "delivery": {
+      "from": null,
+      "to": null,
+      "areaId": null,
+      "postage": null
+    },
+    "feature": {
+      "hasSku": true,
+      "showSku": true
+    }
+  },
+  "skuBase": {
+    "enable": true,
+    "skus": [
+      {
+        "skuId": 4400155540185,
+        "propPath": "1627207:3232479",
+        "images": null
+      },
+      {
+        "skuId": 4400155540184,
+        "propPath": "1627207:3232478",
+        "images": null
+      },
+      {
+        "skuId": 4400155540183,
+        "propPath": "1627207:3232482",
+        "images": null
+      },
+      {
+        "skuId": 4400155540182,
+        "propPath": "1627207:60092",
+        "images": null
+      },
+      {
+        "skuId": 4400155540181,
+        "propPath": "1627207:30156",
+        "images": null
+      },
+      {
+        "skuId": 4400155540180,
+        "propPath": "1627207:28332",
+        "images": null
+      },
+      {
+        "skuId": 4400155540179,
+        "propPath": "1627207:90554",
+        "images": null
+      },
+      {
+        "skuId": 4400155540178,
+        "propPath": "1627207:3232481",
+        "images": null
+      },
+      {
+        "skuId": 4400155540177,
+        "propPath": "1627207:3232484",
+        "images": null
+      },
+      {
+        "skuId": 4400155540176,
+        "propPath": "1627207:3232483",
+        "images": null
+      }
+    ],
+    "props": [
+      {
+        "pid": 1627207,
+        "name": "颜色分类",
+        "values": [
+          {
+            "vid": 3232479,
+            "name": "【商用推荐款套餐】菜刀菜板汤漏铲勺刀剪刨夹9件套",
+            "image": "//img.alicdn.com/imgextra/i1/2207314869202/O1CN01HwFgID2HqZCqBLNNE_!!2207314869202.jpg"
+          },
+          {
+            "vid": 3232478,
+            "name": "【厨房一套就够】菜刀菜板汤漏铲勺刀剪刨8件套",
+            "image": "//img.alicdn.com/imgextra/i4/2207314869202/O1CN01Wrn63w2HqZCqBKEgE_!!2207314869202.jpg"
+          },
+          {
+            "vid": 3232482,
+            "name": "【食品级硅胶厨具】菜刀菜板汤漏勺刀剪刨7件套",
+            "image": "//img.alicdn.com/imgextra/i1/2207314869202/O1CN011DXwPI2HqZCyIuPCo_!!2207314869202.jpg"
+          },
+          {
+            "vid": 60092,
+            "name": "【食品级硅胶厨具】菜刀菜板锅铲勺刀剪刨7件套",
+            "image": "//img.alicdn.com/imgextra/i3/2207314869202/O1CN01aJ7zHm2HqZCqBKInV_!!2207314869202.jpg"
+          },
+          {
+            "vid": 30156,
+            "name": "【店长推荐】菜刀菜板汤漏铲勺5件套",
+            "image": "//img.alicdn.com/imgextra/i4/2207314869202/O1CN01b23CGO2HqZD0Las1J_!!2207314869202.jpg"
+          },
+          {
+            "vid": 28332,
+            "name": "【厨房做菜套装】菜刀菜板锅铲刀刨5件套",
+            "image": "//img.alicdn.com/imgextra/i2/2207314869202/O1CN01OfxCXv2HqZCydifHp_!!2207314869202.jpg"
+          },
+          {
+            "vid": 90554,
+            "name": "【性价比之王】菜刀菜板刀剪刨5件套",
+            "image": "//img.alicdn.com/imgextra/i2/2207314869202/O1CN01O0aeMn2HqZCtadf0q_!!2207314869202.jpg"
+          },
+          {
+            "vid": 3232481,
+            "name": "【厨房必备套装】菜刀菜板汤漏勺4件套",
+            "image": "//img.alicdn.com/imgextra/i4/2207314869202/O1CN01pNrwA32HqZCtAfRHV_!!2207314869202.jpg"
+          },
+          {
+            "vid": 3232484,
+            "name": "【烹饪能手】菜刀菜板锅铲勺4件套",
+            "image": "//img.alicdn.com/imgextra/i1/2207314869202/O1CN017nhGCP2HqZCtAdDyj_!!2207314869202.jpg"
+          },
+          {
+            "vid": 3232483,
+            "name": "【居家必备】菜刀+菜板",
+            "image": "//img.alicdn.com/imgextra/i2/2207314869202/O1CN01Nw7kSr2HqZCyIu4Al_!!2207314869202.jpg"
+          }
+        ]
+      }
+    ],
+    "components": null,
+    "skuExtra": {
+      "pickupPoints": null,
+      "tickets": null,
+      "enableDuration": null
+    }
+  },
+  "jumpUrl": {
+    "enable": true,
+    "apis": {
+      "barterUrl": "//suggest.taobao.com/sug?area=app_detail&nid=622278076807",
+      "skipEsi": "http://mdskip.m.tmall.com/mobile/queryH5Detail.htm",
+      "reqMemberUrl": "//vip.tmall.com/tm-member/superfans/index",
+      "cartUrl": "//main.m.taobao.com/cart/index.html",
+      "addFavUrl": "//fav.m.tmall.com/to_collection.htm?xid=0db2&pds=addfav#h#detail&itemNumId=622278076807",
+      "statsUrl": "//go.mmstat.com/1.gif?logtype=2&category=cart_{loc}_50004431",
+      "reUrl": "//u.m.taobao.com/reg/newUser.htm?pds=reg%23h%23",
+      "memberShopUrl": "//vip.tmall.com/tm-member/superfans/index",
+      "rateUrl": "//rate.tmall.com/list_detail_rate.htm",
+      "propertyUrl": "//mdetail.tmall.com/mobile/itemPackage.do?itemId=622278076807",
+      "descUrl": "//dscnew.taobao.com/i4/620/271/622278076807/TB1k0EcQEY1gK0jSZFC8qwwqXla.desc%7Cvar%5Edesc%3Bsign%5Eb20376a5feb2249bd73895214ad5b79a%3Blang%5Egbk%3Bt%5E1596790204",
+      "recommendUrl": "//aldcdn.tmall.com/recommend.htm?appId=03126&itemId=622278076807",
+      "loginUrl": "//login.tmall.com/?",
+      "newSelectCityApi": "//mdskip.taobao.com/json/detailSelectCity.do?isAreaSell=false&itemId=622278076807",
+      "myUrl": "//h5.m.taobao.com/my/index.htm#!myTaobao",
+      "httpsDescUrl": "//descnew.taobao.com/i4/620/271/622278076807/TB1k0EcQEY1gK0jSZFC8qwwqXla.desc%7Cvar%5Edesc%3Bsign%5Eb20376a5feb2249bd73895214ad5b79a%3Blang%5Egbk%3Bt%5E1596790204",
+      "longTailUrl": "//aldcdn.tmall.com/recommend.htm ",
+      "logOutUrl": "//login.m.taobao.com/logout.htm?pds=logout%23h%23"
+    }
+  },
+  "modules": {
+    "enable": true,
+    "modules": [
+      {
+        "key": "mods/module-preview/index",
+        "name": "商品主预览图",
+        "path": null,
+        "version": null,
+        "groupId": "1",
+        "data": {}
+      },
+      {
+        "key": "mods/module-jhs/index",
+        "name": "聚划算信息",
+        "path": null,
+        "version": null,
+        "groupId": "1",
+        "data": {}
+      },
+      {
+        "key": "mods/module-focus/index",
+        "name": "大促氛围(主图处)",
+        "path": null,
+        "version": null,
+        "groupId": "1",
+        "data": {}
+      },
+      {
+        "key": "mods/module-price/index",
+        "name": "商品价格",
+        "path": null,
+        "version": null,
+        "groupId": "1",
+        "data": {}
+      },
+      {
+        "key": "mods/module-from/index",
+        "name": "来源地信息",
+        "path": null,
+        "version": null,
+        "groupId": "1",
+        "data": {}
+      },
+      {
+        "key": "mods/module-title/index",
+        "name": "商品标题",
+        "path": null,
+        "version": null,
+        "groupId": "1",
+        "data": {}
+      },
+      {
+        "key": "mods/module-adds/index",
+        "name": "快递信息发货地",
+        "path": null,
+        "version": null,
+        "groupId": "1",
+        "data": {}
+      },
+      {
+        "key": "mods/module-atmosphere/index",
+        "name": "大促氛围(物流信息处）",
+        "path": null,
+        "version": null,
+        "groupId": "1",
+        "data": {}
+      },
+      {
+        "key": "mods/module-coupon/index",
+        "name": "购物券信息",
+        "path": null,
+        "version": null,
+        "groupId": "4",
+        "data": {}
+      },
+      {
+        "key": "mods/module-prom/index",
+        "name": "优惠活动信息",
+        "path": null,
+        "version": null,
+        "groupId": "4",
+        "data": {}
+      },
+      {
+        "key": "mods/module-activity/index",
+        "name": "活动区块",
+        "path": null,
+        "version": null,
+        "groupId": "4",
+        "data": {}
+      },
+      {
+        "key": "mods/module-sku/index",
+        "name": "sku模块",
+        "path": null,
+        "version": null,
+        "groupId": "5",
+        "data": {}
+      },
+      {
+        "key": "mods/module-props/index",
+        "name": "产品参数",
+        "path": null,
+        "version": null,
+        "groupId": "5",
+        "data": {}
+      },
+      {
+        "key": "mods/module-related/index",
+        "name": "相关版本",
+        "path": null,
+        "version": null,
+        "groupId": "",
+        "data": {}
+      },
+      {
+        "key": "mods/module-review/index",
+        "name": "同步评价模块",
+        "path": null,
+        "version": null,
+        "groupId": "6",
+        "data": {}
+      },
+      {
+        "key": "mods/module-askall/index",
+        "name": "同步组件-问大家",
+        "path": null,
+        "version": null,
+        "groupId": "6",
+        "data": {}
+      },
+      {
+        "key": "mods/module-shop/index",
+        "name": "店铺模块",
+        "path": null,
+        "version": "",
+        "groupId": "7",
+        "data": {}
+      },
+      {
+        "key": "mods/module-recommend/index",
+        "name": "商品推荐",
+        "path": null,
+        "version": null,
+        "groupId": null,
+        "data": {}
+      },
+      {
+        "key": "mods/module-desc/index",
+        "name": "图文详情",
+        "path": null,
+        "version": null,
+        "groupId": null,
+        "data": {}
+      },
+      {
+        "key": "mods/module-smartjump/index",
+        "name": "smartjump",
+        "path": null,
+        "version": "4.1.23",
+        "groupId": null,
+        "data": {}
+      },
+      {
+        "key": "mods/module-recommend-down/index",
+        "name": "下架商品推荐",
+        "path": null,
+        "version": null,
+        "groupId": null,
+        "data": {}
+      },
+      {
+        "key": "detail-mods/desc/index",
+        "name": "详情自定义模块",
+        "path": null,
+        "version": "4.0.1",
+        "groupId": "desc",
+        "data": {}
+      },
+      {
+        "key": "detail-mods/bugfix20190807/index",
+        "name": "bugfix20190807",
+        "path": null,
+        "version": "5.0.0",
+        "groupId": null,
+        "data": {}
+      }
+    ]
+  },
+  "apiStack": null,
+  "props": {
+    "enable": true,
+    "groupProps": [
+      {
+        "基本信息": [
+          {
+            "品牌": "PLYS/派莱斯 "
+          },
+          {
+            "型号": "hsz2020070802 "
+          },
+          {
+            "材质": "400系列不锈钢 "
+          },
+          {
+            "产地": "中国大陆 "
+          },
+          {
+            "件数": "8件以上 "
+          },
+          {
+            "颜色分类": "【居家必备】菜刀+菜板 【烹饪能手】菜刀菜板锅铲勺4件套 【厨房必备套装】菜刀菜板汤漏勺4件套 【性价比之王】菜刀菜板刀剪刨5件套 【厨房做菜套装】菜刀菜板锅铲刀刨5件套 【店长推荐】菜刀菜板汤漏铲勺5件套 【食品级硅胶厨具】菜刀菜板锅铲勺刀剪刨7件套 【食品级硅胶厨具】菜刀菜板汤漏勺刀剪刨7件套 【厨房一套就够】菜刀菜板汤漏铲勺刀剪刨8件套 【商用推荐款套餐】菜刀菜板汤漏铲勺刀剪刨夹9件套 "
+          },
+          {
+            "是否开刃": "是 "
+          },
+          {
+            "刀尖角度": "60°以上 "
+          },
+          {
+            "刃长": "17cm "
+          }
+        ]
+      }
+    ],
+    "propsList": null
+  },
+  "tags": {
+    "enable": true,
+    "tags": {
+      "isMemberShopItem": false,
+      "isBundleItem": false,
+      "canEditInItemDet": true,
+      "isAllowReport": true,
+      "isHiddenShopAction": false,
+      "useTrade30": true,
+      "isDownShelf": false,
+      "is0YuanBuy": false,
+      "isCarService": false,
+      "isChaoshi": false,
+      "isShowEcityBasicSign": false,
+      "isItemAllowSellerView": true,
+      "goNewAuctionFlow": false,
+      "isShowEcityVerticalSign": false,
+      "isHouseholdService": false,
+      "isSevenDaysRefundment": false,
+      "isVaccine": false,
+      "isHasPos": false,
+      "isAutoYushou": false,
+      "isOnePriceCar": false,
+      "isVitual3C": false,
+      "isFullCarSell": false,
+      "isHideAttentionBtn": false,
+      "isNABundleItem": false,
+      "showDiscountRecommend": false,
+      "enableAliMedicalComponent": true,
+      "isService": false,
+      "isOtcDrug": false,
+      "isYYZY": false,
+      "mlhNewDesc": false,
+      "isEnableAppleSku": true,
+      "isWTContract": false,
+      "isHkItem": false,
+      "isShowContentModuleTitle": false,
+      "isRx2Count": true,
+      "isAreaSell": false,
+      "isH5NewLogin": true,
+      "isHkO2OItem": false,
+      "isSavingEnergy": false,
+      "showFushiPoiInfo": false,
+      "isCustomizedItem": false,
+      "isMeiz": false,
+      "globalSellItem": false,
+      "isShowEcityDesc": false,
+      "isSkuColorShow": false,
+      "autoccUser": false,
+      "isMenDianInventroy": false,
+      "isMeilihui": false,
+      "isLadderGroupon": false,
+      "isHidePoi": false,
+      "isNewAttraction": true,
+      "isPreSellBrand": false,
+      "loginBeforeCart": false,
+      "isAutoFinancing": false,
+      "showSuperMarketBuy": false,
+      "isPrescriptionDrug": false,
+      "isHasQualification": false,
+      "isTmallComboSupport": false,
+      "isIFCShop": false,
+      "isAlicomMasterCard": false,
+      "isCarCascade": false,
+      "isSkuMemorized": false,
+      "isRx2": false,
+      "isTeMai": false,
+      "allowRate": true,
+      "isShowPreClosed": false,
+      "isO2OStaging": false,
+      "isCloudShopItem": false,
+      "isPurchaseMallVipBuyer": false,
+      "cdn75": false,
+      "isNewMedical": false,
+      "isCarYuEBao": false,
+      "isCyclePurchase": false,
+      "isAliTelecomNew": false,
+      "show9sVideo": true,
+      "isHkDirectSale": false,
+      "tryReportDisable": false,
+      "isB2Byao": false,
+      "isRegionLevel": false,
+      "isContractPhoneItem": false,
+      "isYY": false,
+      "supermarketAndQianggou": false,
+      "isZhengChe": false,
+      "isDianZiMendian": false,
+      "isNextDayService": false,
+      "timeKillAuction": false
+    }
+  },
+  "traceDatas": {
+    "mods/module-prom/index": {
+      "module": "Promotion"
+    },
+    "mods/module-coupon/index": {
+      "module": "CouponInfo"
+    },
+    "mods/module-hko2o/index": {
+      "module": "hko2o"
+    },
+    "mods/module-title/index": {
+      "module": "title"
+    },
+    "mods/module-pintuan/index": {
+      "module": "pintuan"
+    }
+  },
+  "detailDesc": {
+    "newWapDescJson": [
+      {
+        "component": "mods/descCustom/simple.xtpl",
+        "data": [
+          {
+            "simples": [
+              {
+                "imgUrl": "//img.alicdn.com/imgextra/i2/6000000002580/O1CN01ptSCVE1UvgSmbf4Qa_!!6000000002580-0-tbvideo.jpg",
+                "title": "商品视频",
+                "jumpUrl": "https://cloud.video.taobao.com/play/u/2207314869202/p/2/e/6/t/1/273655527470.mp4?appKey=7596"
+              }
+            ]
+          }
+        ],
+        "moduleType": 0,
+        "enable": true,
+        "moduleName": "商品视频",
+        "moduleKey": "simple_null"
+      },
+      {
+        "component": "mui/wpimagetext/index",
+        "data": [
+          {
+            "img": "https://img.alicdn.com/imgextra/i3/2207314869202/O1CN01ydmB1H2HqZD4xTxwj_!!2207314869202.jpg",
+            "width": "620",
+            "height": "142"
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleName": "图文",
+        "moduleKey": "image_text"
+      },
+      {
+        "component": "mui/wpimagetext/index",
+        "data": [
+          {
+            "img": "https://img.alicdn.com/imgextra/i4/2207314869202/O1CN01DcNZQZ2HqZDBayhSl_!!2207314869202.jpg",
+            "width": "620",
+            "height": "960"
+          },
+          {
+            "img": "https://img.alicdn.com/imgextra/i1/2207314869202/O1CN01X4ZjcY2HqZDFIzPS4_!!2207314869202.jpg",
+            "width": "620",
+            "height": "329"
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleName": "图文",
+        "moduleKey": "image_text"
+      },
+      {
+        "component": "mui/wpimagetext/index",
+        "data": [
+          {
+            "img": "https://img.alicdn.com/imgextra/i2/2207314869202/O1CN01CbUM602HqZDGDPJw5_!!2207314869202.jpg",
+            "width": "620",
+            "height": "960"
+          },
+          {
+            "img": "https://img.alicdn.com/imgextra/i2/2207314869202/O1CN01IKrUib2HqZDH0ui0n_!!2207314869202.jpg",
+            "width": "620",
+            "height": "816"
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleName": "图文",
+        "moduleKey": "image_text"
+      },
+      {
+        "component": "mui/wpimagetext/index",
+        "data": [
+          {
+            "img": "https://img.alicdn.com/imgextra/i1/2207314869202/O1CN01PAyatA2HqZDIlhymp_!!2207314869202.jpg",
+            "width": "620",
+            "height": "960"
+          },
+          {
+            "img": "https://img.alicdn.com/imgextra/i1/2207314869202/O1CN01vkvUZz2HqZDDaIm5T_!!2207314869202.jpg",
+            "width": "620",
+            "height": "660"
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleName": "图文",
+        "moduleKey": "image_text"
+      },
+      {
+        "component": "mui/wpimagetext/index",
+        "data": [
+          {
+            "img": "https://img.alicdn.com/imgextra/i2/2207314869202/O1CN01LH44ku2HqZDH0wvCA_!!2207314869202.jpg",
+            "width": "620",
+            "height": "960"
+          },
+          {
+            "img": "https://img.alicdn.com/imgextra/i4/2207314869202/O1CN018lLCuE2HqZDB7f6Pu_!!2207314869202.jpg",
+            "width": "620",
+            "height": "477"
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleName": "图文",
+        "moduleKey": "image_text"
+      },
+      {
+        "component": "mui/wpimagetext/index",
+        "data": [
+          {
+            "img": "https://img.alicdn.com/imgextra/i4/2207314869202/O1CN01B1tE2V2HqZDA7iCg5_!!2207314869202.jpg",
+            "width": "620",
+            "height": "960"
+          },
+          {
+            "img": "https://img.alicdn.com/imgextra/i4/2207314869202/O1CN0186l6VV2HqZDFJ0swn_!!2207314869202.jpg",
+            "width": "620",
+            "height": "669"
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleName": "图文",
+        "moduleKey": "image_text"
+      },
+      {
+        "component": "mui/wpimagetext/index",
+        "data": [
+          {
+            "img": "https://img.alicdn.com/imgextra/i4/2207314869202/O1CN01TRQrNw2HqZDIliaDC_!!2207314869202.jpg",
+            "width": "620",
+            "height": "960"
+          },
+          {
+            "img": "https://img.alicdn.com/imgextra/i3/2207314869202/O1CN01b8QV352HqZDIljzX9_!!2207314869202.jpg",
+            "width": "620",
+            "height": "560"
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleName": "图文",
+        "moduleKey": "image_text"
+      },
+      {
+        "component": "mui/wpimagetext/index",
+        "data": [
+          {
+            "img": "https://img.alicdn.com/imgextra/i2/2207314869202/O1CN01kogNMR2HqZDEFB2oi_!!2207314869202.jpg",
+            "width": "620",
+            "height": "960"
+          },
+          {
+            "img": "https://img.alicdn.com/imgextra/i1/2207314869202/O1CN010VTl4R2HqZDGDRjaW_!!2207314869202.jpg",
+            "width": "620",
+            "height": "960"
+          },
+          {
+            "img": "https://img.alicdn.com/imgextra/i1/2207314869202/O1CN019YTxlZ2HqZDE6m4sy_!!2207314869202.jpg",
+            "width": "620",
+            "height": "116"
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleName": "图文",
+        "moduleKey": "image_text"
+      },
+      {
+        "component": "mui/wpimagetext/index",
+        "data": [
+          {
+            "img": "https://img.alicdn.com/imgextra/i4/2207314869202/O1CN01eLaPU22HqZDFsgA19_!!2207314869202.jpg",
+            "width": "620",
+            "height": "960"
+          },
+          {
+            "img": "https://img.alicdn.com/imgextra/i4/2207314869202/O1CN01Qu2dCB2HqZDBaxUc0_!!2207314869202.jpg",
+            "width": "620",
+            "height": "342"
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleName": "图文",
+        "moduleKey": "image_text"
+      },
+      {
+        "component": "mui/wpimagetext/index",
+        "data": [
+          {
+            "img": "https://img.alicdn.com/imgextra/i1/2207314869202/O1CN01ecnjzk2HqZDFsfl4D_!!2207314869202.jpg",
+            "width": "620",
+            "height": "960"
+          },
+          {
+            "img": "https://img.alicdn.com/imgextra/i1/2207314869202/O1CN01YuF1U12HqZDDaIuOI_!!2207314869202.jpg",
+            "width": "620",
+            "height": "724"
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleName": "图文",
+        "moduleKey": "image_text"
+      },
+      {
+        "component": "mui/wpimagetext/index",
+        "data": [
+          {
+            "img": "https://img.alicdn.com/imgextra/i3/2207314869202/O1CN01o6woWm2HqZDA7hOr3_!!2207314869202.jpg",
+            "width": "620",
+            "height": "960"
+          },
+          {
+            "img": "https://img.alicdn.com/imgextra/i4/2207314869202/O1CN01xBpXJE2HqZDEFBusK_!!2207314869202.jpg",
+            "width": "620",
+            "height": "760"
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleName": "图文",
+        "moduleKey": "image_text"
+      },
+      {
+        "component": "mui/wpimagetext/index",
+        "data": [
+          {
+            "img": "https://img.alicdn.com/imgextra/i4/2207314869202/O1CN01IhKzB72HqZDBaxUfN_!!2207314869202.jpg",
+            "width": "620",
+            "height": "960"
+          },
+          {
+            "img": "https://img.alicdn.com/imgextra/i4/2207314869202/O1CN011px4bJ2HqZDHfUlwV_!!2207314869202.jpg",
+            "width": "620",
+            "height": "347"
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleName": "图文",
+        "moduleKey": "image_text"
+      },
+      {
+        "component": "mui/custommodule/index",
+        "data": [
+          {
+            "img": "https://gw.alicdn.com/tfs/TB1k9XsQpXXXXXLXpXXXXXXXXXX-750-368.png",
+            "width": 750,
+            "height": 368
+          }
+        ],
+        "moduleType": 1,
+        "enable": true,
+        "moduleKey": "custompriceDesc"
+      }
+    ],
+    "newWapDescDynUrl": "//detailskip.taobao.com/json/wap/tmallH5Desc.do?itemId=622278076807&sellerId=2207314869202&isPreview=false"
+  }
+}

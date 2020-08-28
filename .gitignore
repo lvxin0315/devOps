@@ -15,3 +15,5 @@
 vendor/
 .idea
 go.sum
+/jd_data/item_tmp/product/
+!/jd_data/item_tmp/product/README.md
