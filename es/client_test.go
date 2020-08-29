@@ -2,7 +2,9 @@ package es
 
 import (
 	"fmt"
+	"github.com/olivere/elastic/v7"
 	"github.com/stretchr/testify/assert"
+	"reflect"
 	"testing"
 	"time"
 )
@@ -186,4 +188,75 @@ func Test_esClient_ReIndex(t *testing.T) {
 	err = esClient.DeleteIndex("test_index5")
 	err = esClient.DeleteIndex("test_index6")
 	assert.Equal(t, err, nil, "删除error")
+}
+
+type Goods struct {
+	EsId      string
+	EsScore   float64
+	Title     string `json:"title"`      //商品名称
+	BrandName string `json:"brand_name"` //品牌
+}
+
+func (g *Goods) SetScore(f float64) {
+	g.EsScore = f
+}
+
+func (g *Goods) SetEsId(id string) {
+	g.EsId = id
+}
+
+func Test_esClient_Select(t *testing.T) {
+	fmt.Println("Test_esClient_Select start")
+	esClient := NewEsClient("172.16.0.203", 9200, false)
+	err := esClient.Connect()
+	assert.Equal(t, err, nil)
+	query := elastic.NewRawStringQuery(`{
+		"bool" : {
+			"must" : [
+				{
+					"match" : { "brand_name" : "唐宗筷" }
+				}
+			],
+			"should" : [
+				{
+					"match" : { "title" : "唐宗筷" },
+					"match" : { "title" : "一次性竹牙签" }
+				}
+			],
+			"minimum_should_match" : 1,
+			"boost" : 1.0
+		}
+	}`)
+	qr, err := esClient.Index("goods-item").Query(query).DefaultSort().Select(reflect.TypeOf(&Goods{}))
+	assert.Equal(t, err, nil, "Select error")
+	fmt.Println(qr.Total)
+	fmt.Println(qr.MaxScore)
+	for _, d := range qr.DataList {
+		fmt.Println("EsId:", d.(*Goods).EsId)
+		fmt.Println("Title:", d.(*Goods).Title)
+		fmt.Println("BrandName:", d.(*Goods).BrandName)
+		fmt.Println("EsScore:", d.(*Goods).EsScore)
+	}
+}
+
+func Test_esClient_Select1(t *testing.T) {
+	fmt.Println("Test_esClient_Select1 start")
+	esClient := NewEsClient("172.16.0.203", 9200, false)
+	err := esClient.Connect()
+	assert.Equal(t, err, nil)
+	query := elastic.NewBoolQuery()
+	query.Must(elastic.NewMatchQuery("brand_name", "唐宗筷"))
+	query.Should(elastic.NewMatchQuery("title", "唐宗筷"), elastic.NewMatchQuery("title", "一次性竹牙签"))
+	query.MinimumShouldMatch("1")
+	query.Boost(1.0)
+	qr, err := esClient.Index("goods-item").Query(query).DefaultSort().Select(reflect.TypeOf(&Goods{}))
+	assert.Equal(t, err, nil, "Select error")
+	fmt.Println(qr.Total)
+	fmt.Println(qr.MaxScore)
+	for _, d := range qr.DataList {
+		fmt.Println("EsId:", d.(*Goods).EsId)
+		fmt.Println("Title:", d.(*Goods).Title)
+		fmt.Println("BrandName:", d.(*Goods).BrandName)
+		fmt.Println("EsScore:", d.(*Goods).EsScore)
+	}
 }

@@ -13,6 +13,7 @@ type esClient struct {
 	client  *elastic.Client
 	sniffer bool
 	ctx     context.Context
+	query   *elastic.SearchService
 }
 
 //构造EsClient
@@ -154,27 +155,27 @@ func (c *esClient) UpdateItem(indexKey string, id string, data interface{}) (int
 }
 
 //复制index及相关数据
-func (c *esClient) ReIndex(sourceIndex string, newIndex string) (int64, error) {
+func (c *esClient) ReIndex(sourceIndexKey string, newIndexKey string) (int64, error) {
 	//判断源index是否存在
-	exists, err := c.Exists(sourceIndex)
+	exists, err := c.Exists(sourceIndexKey)
 	if err != nil {
 		return 0, err
 	}
 	if !exists {
-		return 0, fmt.Errorf("sourceIndex not exists")
+		return 0, fmt.Errorf("sourceIndexKey not exists")
 	}
 	//判断新index是否存在
-	exists, err = c.Exists(newIndex)
+	exists, err = c.Exists(newIndexKey)
 	if err != nil {
 		return 0, err
 	}
 	if exists {
-		return 0, fmt.Errorf("newIndex exists")
+		return 0, fmt.Errorf("newIndexKey exists")
 	}
 	//nrd := elastic.NewReindexDestination()
 	//nrd.Index(newIndex)
 	//nrd.OpType("create")
-	rs := elastic.NewReindexService(c.client).SourceIndex(sourceIndex).DestinationIndex(newIndex)
+	rs := elastic.NewReindexService(c.client).SourceIndex(sourceIndexKey).DestinationIndex(newIndexKey)
 	r, err := rs.Do(c.ctx)
 	if err != nil {
 		return 0, err
