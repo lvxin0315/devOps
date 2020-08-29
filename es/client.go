@@ -120,7 +120,7 @@ func (c *esClient) AddItem(indexKey string, data interface{}) (string, error) {
 	return indexResponse.Id, err
 }
 
-//批量插入
+//批量插入index数据
 func (c *esClient) AddItems(indexKey string, dataList ...interface{}) (int64, error) {
 	//判断index是否存在
 	exists, err := c.Exists(indexKey)
@@ -144,11 +144,41 @@ func (c *esClient) AddItems(indexKey string, dataList ...interface{}) (int64, er
 	return int64(len(r.Items)), nil
 }
 
-//更新数据
+//更新index数据
 func (c *esClient) UpdateItem(indexKey string, id string, data interface{}) (int64, error) {
 	res, err := c.client.Update().Index(indexKey).Id(id).Doc(data).Do(c.ctx)
 	if err != nil {
 		return 0, err
 	}
 	return res.Version, nil
+}
+
+//复制index及相关数据
+func (c *esClient) ReIndex(sourceIndex string, newIndex string) (int64, error) {
+	//判断源index是否存在
+	exists, err := c.Exists(sourceIndex)
+	if err != nil {
+		return 0, err
+	}
+	if !exists {
+		return 0, fmt.Errorf("sourceIndex not exists")
+	}
+	//判断新index是否存在
+	exists, err = c.Exists(newIndex)
+	if err != nil {
+		return 0, err
+	}
+	if exists {
+		return 0, fmt.Errorf("newIndex exists")
+	}
+	//nrd := elastic.NewReindexDestination()
+	//nrd.Index(newIndex)
+	//nrd.OpType("create")
+	rs := elastic.NewReindexService(c.client).SourceIndex(sourceIndex).DestinationIndex(newIndex)
+	r, err := rs.Do(c.ctx)
+	if err != nil {
+		return 0, err
+	}
+	fmt.Println(r.Total)
+	return 0, nil
 }

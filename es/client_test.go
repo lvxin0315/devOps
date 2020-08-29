@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/stretchr/testify/assert"
 	"testing"
+	"time"
 )
 
 func Test_esClient_Connect(t *testing.T) {
@@ -142,5 +143,47 @@ func Test_esClient_Update(t *testing.T) {
 
 	//删除index
 	err = esClient.DeleteIndex("test_index4")
+	assert.Equal(t, err, nil, "删除error")
+}
+
+func Test_esClient_ReIndex(t *testing.T) {
+	esClient := NewEsClient("172.16.0.203", 9200, false)
+	err := esClient.Connect()
+	assert.Equal(t, err, nil)
+	pt := NewBaseIndexProperties()
+	pt.SetProperties("name", &PropertiesType{
+		Type: "text",
+	})
+	pt.SetProperties("content", &PropertiesType{
+		Type: "text",
+	})
+	err = esClient.CreateIndexWithProperties("test_index5", pt)
+	assert.Equal(t, err, nil, "创建error")
+	type data struct {
+		Name    string `json:"name"`
+		Content string `json:"content"`
+	}
+	num, err := esClient.AddItems("test_index5", &data{
+		Name:    "test1",
+		Content: "test111",
+	}, &data{
+		Name:    "test2",
+		Content: "test222",
+	}, &data{
+		Name:    "test3",
+		Content: "test333",
+	}, &data{
+		Name:    "test4",
+		Content: "test444",
+	})
+	fmt.Println("num:", num)
+	assert.Equal(t, err, nil, "AddItems error")
+	time.Sleep(3 * time.Second)
+	//复制index
+	esClient.ReIndex("test_index5", "test_index6")
+	time.Sleep(3 * time.Second)
+	//删除index
+	err = esClient.DeleteIndex("test_index5")
+	err = esClient.DeleteIndex("test_index6")
 	assert.Equal(t, err, nil, "删除error")
 }

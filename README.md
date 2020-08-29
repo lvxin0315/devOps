@@ -6,7 +6,7 @@
 * mysqldump
 * expect
 * RDS_for_docker 用docker还原RDS物理备份 「[查看详情](https://github.com/lvxin0315/devOps/blob/master/RDS_for_docker/README.md "查看详情")」
-
+* elasticsearch 基础操作
 
 ### devOps有哪些功能?
 * jenkins build job
